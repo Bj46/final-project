@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4em;
+    margin: 5px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+    
+h2{
+    margin: 5px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: #E03A3E; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: blue;
+    height: 72px;
+    text-align: center;
+
+}
+
+
+
+
+
+#content{
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    min-width: 480px;
+    max-width: 2048px;
+    
+}
+
+
+#content2{
+    background-color:#ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    min-width: 480px;
+    max-width: 2048px;
+    
+}
+
+
+.fc {
+    display: flex;
+}
+
+nav {
+    font-size: 2em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 25px;
+}
+
+ul li a{
+    display: block;
+    padding: 6px 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+p{
+    font-size: 18px;
+    line-height: 2em;
+    margin: 10px;
+    margin-bottom: 32px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:	#dfbb85;
+}
+
+img{
+    width: 100%;
+    margin: 1px auto;
+    display: block;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    background-color: #c8102e;
+    border: 5px;
+    margin-bottom: 1%;
+}
+
+.column{
+    flex: 25%;
+    padding: 10px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+
+.column img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    height: 52px;
+   
+    
+  }
+
+@media (max-width: 800px) {
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
